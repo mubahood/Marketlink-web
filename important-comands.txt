@@ -1,0 +1,27 @@
+php artisan make:model DataExport -m
+
+php artisan admin:make DataExportController --model=App\\Models\\DataExport
+//DataExport
+
+
+php artisan make:migration add_new_status_to_budget_programs --table=budget_programs
+
+
+php artisan migrate
+---
+- This week sales
+- 
+- Employes total*
+- In Stock
+
+- Financial Perio sales
+- Fincanial period sales/loses*
+- Stock Cats best/worst
+- Stock subcat - running out, best performer. worst (list)
+- Ricent stock items
+- Recent seles (list)
+- Stock cats by percentage (pie)
+
+
+
+
